@@ -4,6 +4,8 @@ This tournament took place between March 15 - 29. I took part as an individual p
 
 ## 100
 
+- [basic-file-exploit](./100/basic-file-exploit/README.md)
+
 ## 200
 
 ## 300
