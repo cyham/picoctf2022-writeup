@@ -14,6 +14,6 @@ message.txt
 
 ### Solution
 
-The text file contained a series of numbers separated by spaces. I wrote a python script, called [convertnums.py](./100/basic-mod1/convertnums.py), that took each number, applied mod 37 and looked for the corresponding number in an alphabet. 
+The text file contained a series of numbers separated by spaces. I wrote a python script, called [convertnums.py](./convertnums.py), that took each number, applied mod 37 and looked for the corresponding number in an alphabet. 
 
 The result needed to be put inside the picoCTF{} wrapper which was then accepted as the flag. 
