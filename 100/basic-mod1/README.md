@@ -14,7 +14,7 @@ message.txt
 
 ### Solution
 
-The text file contained a series of numbers separated by spaces. I wrote a python script, called [convertnums.py](./convertnums.py), that took each number, applied mod 37 and looked for the corresponding number in an alphabet. 
+The text file contained a series of numbers separated by spaces. I wrote a python script, that took each number, applied mod 37 and looked for the corresponding number in an alphabet. 
 
 ``` python
 nums = [116, 122, 111, 117, 130, 119, 123, 115]
