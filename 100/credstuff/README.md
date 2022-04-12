@@ -22,4 +22,4 @@ Note: I was using visual studio code here so keyboard shortcuts may be different
 
 The password was encrypted so, I went to [dcode caesar-cipher](https://www.dcode.fr/caesar-cipher) and used the decoder there to bruteforce the shift value of the password. 
 
-It showed the typical picoCTF wrapper for shift 13 and I used that as my flag. 
+It showed the typical picoCTF wrapper for shift 13 and I used that as my flagtime. 
