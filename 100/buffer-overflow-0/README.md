@@ -6,8 +6,8 @@ Smash the stack Let's start off simple, can you overflow the correct buffer?
 
 ### Resources
 
-nc saturn.picoctf.net 65445
-vuln.c
+- nc saturn.picoctf.net 65445
+- vuln.c
 
 ### Solution
 
