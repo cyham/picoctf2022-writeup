@@ -8,6 +8,7 @@ This tournament took place between March 15 - 29. I took part as an individual p
 - [basic-mod1](./100/basic-mod1/README.md)
 - [basic-mod2](./100/basic-mod2/README.md)
 - [buffer-overflow-0](./100/buffer-overflow-0/README.md)
+- [credstuff](./100/credstuff/README.md)
 
 ## 200
 
