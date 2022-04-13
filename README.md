@@ -1,4 +1,4 @@
-# [picoCTF 2022](http://play.picoctf.org) ![picoctf](./picoctf-small.jpg)
+# [picoCTF 2022](https://play.picoctf.org) ![picoctf](./picoctf-small.jpg)
 
 This tournament took place between March 15 - 29. I took part as an individual participant and scored 5800 points. This repository contains the writeups for the challenges that I completed. 
 
@@ -13,6 +13,7 @@ This tournament took place between March 15 - 29. I took part as an individual p
 - [enhance!](./100/enhance!/README.md)
 - [file-run1](./100/file-run1/README.md)
 - [file-run2](./100/file-run2/README.md)
+- [file-types](./100/file-types/README.md)
 
 ## 200
 
