@@ -217,4 +217,4 @@ Step 33: Put text in [rapidtables](https://www.rapidtables.com/convert/number/he
 
 FLAGTIME :balloon: :balloon: :balloon:
 
-![](https://giphy.com/gifs/planeteclipse-run-flag-l0HU1Ajixx0bg86oU)
+![](https://giphy.com/gifs/planeteclipse-run-flag-l0HU1Ajixx0bg86oU.gif)
