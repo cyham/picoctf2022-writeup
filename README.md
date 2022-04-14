@@ -21,6 +21,7 @@ This tournament took place between March 15 - 29. I took part as an individual p
 - [lookey-here](./100/lookey-here/README.md)
 - [morse-code](./100/morse-code/README.md)
 - [packets-primer](./100/packets-primer/README.md)
+- [patchme-py](./100/patchme-py/README.md)
 
 ## 200
 
