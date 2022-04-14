@@ -18,6 +18,7 @@ This tournament took place between March 15 - 29. I took part as an individual p
 - [includes](./100/includes/README.md)
 - [inspect-html](./100/inspect-html/README.md)
 - [local-authority](./100/local-authority/README.md)
+- [lookey-here](./100/lookey-here/README.md)
 
 ## 200
 
