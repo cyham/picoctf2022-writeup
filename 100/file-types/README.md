@@ -18,7 +18,7 @@ Step 1: Push file through strings to see what I can find
 sam@ubuntu:~$ strings Flag.pdf > flag-pdf-strings.txt
 ```
 
-SEE: What looks like a shell script 
+What looks like a shell script...
 
 ![strings-sh](./strings-sh.png)
 
@@ -63,11 +63,13 @@ x - removed lock directory _sh00046.
 ```
 Success!!
 
+---
+
 Step 8: cat the flag file that is created
 
 ![cat-flag](./cat-flag.png)
 
-SEE: Illegable text BUT notice !`<arch>` at the top of the file
+Illegable text BUT notice !`<arch>` at the top of the file
 
 Step 9: Search > what is !`<arch>`?
 
@@ -80,133 +82,34 @@ Step 10: Extract the file from the archive
 sam@ubuntu:~$ ar x flag
 ```
 
-SEE: Another archive...
+Get another archive...
 
-Step 11: Put file in [checkfiletype](https://www.checkfiletype.com/)
+Step 11:
 
-- Discover file is a cpio file
+> From this point onwards I repeated the following steps over and over to get to the final output 
 
-Extra: (I rename the file from flag to archive.cpio)
+1. Found the file type (For most instances I used [checkfiletype](https://www.checkfiletype.com/) but there are other ways!)
+2. If I don't have the tool I download it
+3. Extract the file
+4. Rename if necessary
+5. And keep going!
 
-Step 12: Extract cpio archive
+> To summarise I am going to include a table of the file-types
 
-```console
-sam@ubuntu:~$ cpio -iv < archive.cpio
-```
+| file types |
+| ---------- |
+| cpio       |
+| bzip2      |
+| gzip       |
+| lzip       |
+| lz4        |
+| lzma       |
+| lzop       |
+| lzip       |
 
-SEE: Another archive...
+In my notes I mention p7zip but also say that it 'DIDN'T WORK' so, if you're not there give it a go.
 
-Step 13: Put file in [checkfiletype](https://www.checkfiletype.com/)
-
-- Discover file is a bzip2 file
-
-Step 14: Extract bzip2 archive
-
-```console
-sam@ubuntu:~$ bzip2 -d flag
-```
-
-(This overwrote the old flag file to flag.out)
-
-SEE: Another archive...
-
-Step 15: Put file in [checkfiletype](https://www.checkfiletype.com/)
-
-- Discover file is a gzip file
-
-Step 16: Extract gzip file 
-
-(I had to rename the original file to something other than flag)
-
-DO: GUI folder > Double click > Extract
-
-SEE: Another archive... 
-
-Step 17: Put file in [checkfiletype](https://www.checkfiletype.com/)
-
-- Discover file is a lzip file
-
-Step 18: Download and install lzip
-
-```console
-sam@ubuntu:~$ sudo apt install lzip
-```
-
-Step 19: Extract lzip file
-
-```console
-sam@ubuntu:~$ lzip -d flag
-```
-
-SEE: Another archive... (flag.out file)
-
-Step 20: Put file in [checkfiletype](https://www.checkfiletype.com/)
-
-- Discover file is a lz4 file
-
-Step 21: Extract lz4 file
-
-```console
-sam@ubuntu:~$ lz4 -d flag.out flag
-```
-
-SEE: Another archive...
-
-Step 22: Put file in [checkfiletype](https://www.checkfiletype.com/)
-
-- Discover file is a lzma file
-
-Step 23: Extract lzma file
-
-```console
-sam@ubuntu:~$ lzma -d flag.xz
-```
-
-SEE: Another archive...
-
-Step 24: Put file in [checkfiletype](https://www.checkfiletype.com/)
-
-- Discover file is a lzop file
-
-Step 25: Download and install lzop
-
-```console
-sam@ubuntu:~$ sudo apt install lzop
-```
-
-Step 26: Change file suffix to .lzo 
-
-Step 27: Extract lzop file
-
-```console
-sam@ubuntu:~$ lzop -d current.lzo > current
-```
-
-SEE: Another archive...
-
-Step 28: Extract lzip file
-
-```console
-sam@ubuntu:~$ lzip -d current > current.out
-```
-
-NOTE: Everything under here may have flaws in as my notes became less frequent
-
-Step 29: Download and install p7zip
-
-```console
-sam@ubuntu:~$ sudo apt install p7zip
-```
-
-SEE: Another archive...
-
-Step 31: Extract p7zip file
-
-```console
-sam@ubuntu:~$ p7zip -d current.out > current
-```
-
-Step 32:
+Step 12:
 
 ```console
 sam@ubuntu:~$ cat current
@@ -216,5 +119,3 @@ sam@ubuntu:~$ cat current
 Step 33: Put text in [rapidtables](https://www.rapidtables.com/convert/number/hex-to-ascii.html)
 
 FLAGTIME :balloon: :balloon: :balloon:
-
-![](https://media.giphy.com/media/l0HU1Ajixx0bg86oU/giphy.gif)
