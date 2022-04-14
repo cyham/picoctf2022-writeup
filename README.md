@@ -17,6 +17,7 @@ This tournament took place between March 15 - 29. I took part as an individual p
 - [gdb-test-drive](./100/gdb-test-drive/README.md)
 - [includes](./100/includes/README.md)
 - [inspect-html](./100/inspect-html/README.md)
+- [local-authority](./100/local-authority/README.md)
 
 ## 200
 
