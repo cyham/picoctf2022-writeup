@@ -42,5 +42,6 @@ This tournament took place between March 15 - 29. I took part as an individual p
 - [fresh-java](./200/fresh-java/README.md)
 - [power-cookie](./200/power-cookie/README.md)
 - [roboto-sans](./200/roboto-sans/README.md)
+- [rps](./200/rps/README.md)
 
 ## 300
