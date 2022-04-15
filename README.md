@@ -40,5 +40,7 @@ This tournament took place between March 15 - 29. I took part as an individual p
 - [diffie-hellman](./200/diffie-hellman/README.md)
 - [forbidden-paths](./200/forbidden-paths/README.md)
 - [fresh-java](./200/fresh-java/README.md)
+- [power-cookie](./200/power-cookie/README.md)
+- [roboto-sans](./200/roboto-sans/README.md)
 
 ## 300
