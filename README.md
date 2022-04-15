@@ -25,6 +25,7 @@ This tournament took place between March 15 - 29. I took part as an individual p
 - [rail-fence](./100/rail-fence/README.md)
 - [redaction-gone-wrong](./100/redaction-gone-wrong/README.md)
 - [safe-opener](./100/safe-opener/README.md)
+- [search-source](./100/search-source/README.md)
 
 ## 200
 
