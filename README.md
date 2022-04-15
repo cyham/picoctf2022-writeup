@@ -43,5 +43,6 @@ This tournament took place between March 15 - 29. I took part as an individual p
 - [power-cookie](./200/power-cookie/README.md)
 - [roboto-sans](./200/roboto-sans/README.md)
 - [rps](./200/rps/README.md)
+- [secrets](./200/secrets/README.md)
 
 ## 300
