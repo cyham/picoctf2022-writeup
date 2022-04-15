@@ -35,6 +35,6 @@ user_pw = input("Please enter correct password for flag: ")
         print("Welcome back... your flag, user:")
 ```
 
-Step 4: Reconstruct the string there 'ak98' onwards
+Step 4: Reconstruct the string from 'ak98' onwards
 
 Flagtime :boom:
