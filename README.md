@@ -41,5 +41,4 @@ This tournament took place between March 15 - 29. I took part as an individual p
 - [forbidden-paths](./200/forbidden-paths/README.md)
 - [fresh-java](./200/fresh-java/README.md)
 
-
 ## 300
