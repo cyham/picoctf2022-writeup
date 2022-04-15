@@ -39,4 +39,4 @@ sam@ubuntu:~$ openssl des3 -d -salt -in file.des3 -out file.txt -k flagtimepassw
 
 Step 8: Open file.txt
 
-FLAGTIMEEEEEEE :tada: :confetti_ball: :balloon: :balloon: 
+FFFLAGTIMEEE
