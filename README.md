@@ -44,5 +44,6 @@ This tournament took place between March 15 - 29. I took part as an individual p
 - [roboto-sans](./200/roboto-sans/README.md)
 - [rps](./200/rps/README.md)
 - [secrets](./200/secrets/README.md)
+- [sleuthkit-apprentice](./200/sleuthkit-apprentice/README.md)
 
 ## 300
