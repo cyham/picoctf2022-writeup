@@ -50,3 +50,4 @@ This tournament took place between March 15 - 29. I took part as an individual p
 ## 300
 
 - [bbbbloat](./300/bbbbloat/README.md)
+- [eavesdrop](./300/eavesdrop/README.md)
