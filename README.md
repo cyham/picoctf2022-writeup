@@ -27,6 +27,7 @@ This tournament took place between March 15 - 29. I took part as an individual p
 - [safe-opener](./100/safe-opener/README.md)
 - [search-source](./100/search-source/README.md)
 - [sleuthkit-intro](./100/sleuthkit-intro/README.md)
+- [substitution0](./100/substitution0/README.md)
 
 ## 200
 
