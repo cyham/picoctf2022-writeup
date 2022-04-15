@@ -6,8 +6,8 @@ Can you get the flag? Run this Python program in the same directory as this encr
 
 ### Resources
 
-patchme.flag.py
-flag.txt.enc
+- patchme.flag.py
+- flag.txt.enc
 
 ### Solution
 

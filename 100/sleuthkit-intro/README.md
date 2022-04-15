@@ -8,8 +8,8 @@ Connect to the remote checker service to check your answer and get the flag.
 
 ### Resources
 
-nc saturn.picoctf.net 52279
-disk.img.gz
+- nc saturn.picoctf.net 52279
+- disk.img.gz
 
 ### Solution
 
