@@ -88,7 +88,7 @@ Step 11:
 
 > From this point onwards I repeated the following steps over and over to get to the final output 
 
-1. Found the file type (For most instances I used [checkfiletype](https://www.checkfiletype.com/) but there are other ways!)
+1. Found the file type (For most instances I used [checkfiletype](https://www.checkfiletype.com/))
 2. If I don't have the tool I download it
 3. Extract the file
 4. Rename if necessary
@@ -96,18 +96,39 @@ Step 11:
 
 > To summarise I am going to include a table of the file-types
 
-| file types |
-| ---------- |
-| cpio       |
-| bzip2      |
-| gzip       |
-| lzip       |
-| lz4        |
-| lzma       |
-| lzop       |
-| lzip       |
-
-In my notes I mention p7zip but also say that it 'DIDN'T WORK' so, if you're not there give it a go.
+<details>
+    <summary>Spoiler warning</summary>
+    <table>
+        <tr>
+            <th>file-types</th>
+        </tr>
+        <tr>
+            <td>cpio</td>
+        </tr>
+        <tr>
+            <td>bzip2</td>
+        </tr>
+        <tr>
+            <td>gzip</td>
+        </tr>
+        <tr>
+            <td>lzip</td>
+        </tr>
+        <tr>
+            <td>lz4</td>
+        </tr>
+        <tr>
+            <td>lzma</td>
+        </tr>
+        <tr>
+            <td>lzop</td>
+        </tr>
+        <tr>
+            <td>lzip</td>
+        </tr>
+    </table>
+    In my notes I mention p7zip but also say that it 'DIDN'T WORK' so, if you're not there give it a go.
+</details>
 
 Step 12:
 
