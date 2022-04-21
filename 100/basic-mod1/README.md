@@ -14,7 +14,11 @@ message.txt
 
 ### Solution
 
-The text file contained a series of numbers separated by spaces. I wrote a python script, that took each number, applied mod 37 and looked for the corresponding number in an alphabet. 
+Step 1: Open message.txt in text editor
+
+Step 2: Notice the text file contains a series of numbers separated by spaces. 
+
+Step 3: Write a python script, that takes each number, applies mod 37 and looks for the corresponding number in an alphabet. 
 
 ``` python
 nums = [116, 122, 111, 117, 130, 119, 123, 115]
@@ -26,4 +30,4 @@ for num in nums:
 print("}")
 ```
 
-The result needed to be put inside the picoCTF{} wrapper which was then accepted as the flag. 
+Step 4: Put the result inside the picoCTF{} wrapper. 
