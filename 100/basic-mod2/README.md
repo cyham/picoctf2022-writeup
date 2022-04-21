@@ -14,7 +14,11 @@ message.txt
 
 ### Solution
 
-Similar to the basic-mod1 challenge, I reused the code from there, but performed the modular multiplicative inverse calculation on the number from the array.
+Step 1: Open message.txt in text editor
+
+Step 2: Notice the text file contains a series of numbers separated by spaces
+
+Step 3: Write a python script that takes each number, applies the modular multiplicative inverse, applies mod 41 and looks for the corresponding number in an alphabet
 
 ``` python
 # Greatest Common Divisor
@@ -41,4 +45,8 @@ for num in nums:
 print("}")
 ```
 
-The result needed to be put inside the picoCTF{} wrapper which was then accepted as the flag. 
+Step 4: Put the result inside the picoCTF{} wrapper
+
+### References
+
+https://en.wikibooks.org/wiki/Algorithm_Implementation/Mathematics/Extended_Euclidean_algorithm
