@@ -16,9 +16,9 @@ message.txt
 
 Step 1: Open message.txt in text editor
 
-Step 2: Notice the text file contains a series of numbers separated by spaces. 
+Step 2: Notice the text file contains a series of numbers separated by spaces 
 
-Step 3: Write a python script, that takes each number, applies mod 37 and looks for the corresponding number in an alphabet. 
+Step 3: Write a python script that takes each number, applies mod 37 and looks for the corresponding number in an alphabet 
 
 ``` python
 nums = [116, 122, 111, 117, 130, 119, 123, 115]
@@ -30,4 +30,4 @@ for num in nums:
 print("}")
 ```
 
-Step 4: Put the result inside the picoCTF{} wrapper. 
+Step 4: Put the result inside the picoCTF{} wrapper 
