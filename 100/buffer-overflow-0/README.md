@@ -11,8 +11,13 @@ Smash the stack Let's start off simple, can you overflow the correct buffer?
 
 ### Solution
 
-For this challenge, I simply connected using 'nc saturn.picoctf.net 65445' and filled the input with a bunch of a's.
+Step 1: Connect to endpoint
 
-![nc-vuln](./nc-vuln.png)
+Step 2: Enter a string of a's that is long enough to overflow the buffer
+
+```console
+sam@ubuntu:~$ nc saturn.picoctf.net 65445
+Input: aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+```
 
 Flagtime :tada:
